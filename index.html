@@ -100,10 +100,11 @@
     <div>
         <label class="field-label" for="years">Jak dlouho budete splácet? (let):</label>
         <div class="slider-container">
-            <span id="yearsLabel">15</span>
-            <input type="range" id="years" value="15" min="1" max="40" step="1" oninput="updateYearsLabel(this.value)">
-            <span>40</span>
+            <span>1 rok</span>
+            <input type="range" id="years" value="15" min="1" max="30" step="1" oninput="updateYearsLabel(this.value)">
+            <span>30 let</span>
         </div>
+        <p id="yearsLabel">15 let</p>
     </div>
     <div>
         <label class="field-label" for="fixation">Fixace:</label>
